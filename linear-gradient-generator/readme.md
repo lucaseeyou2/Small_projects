@@ -4,5 +4,5 @@ random gradient to be generated and this will create two different hex values an
 ## Files 
 Main.html <br>
 style.css <br>
-minscript.js <br>
+scriptmin.js <br>
 script.js
