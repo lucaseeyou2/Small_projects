@@ -6,3 +6,5 @@ Main.html <br>
 style.css <br>
 scriptmin.js <br>
 script.js
+<br>
+Preview (PC only) : https://codepen.io/lucaseeyou2/full/dyOzwrp; 
