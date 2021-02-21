@@ -2,6 +2,7 @@
 let doc = document;
 let ma = Math;
 
+// Set an interval of 16 ms for the color gradient to refresh
 setInterval(() => {
   
   // Get the values of color from the two color inputs color_1 and color_2 
@@ -59,6 +60,8 @@ a.onclick = () => {
       g[ma.floor(ma.random() * g.length)] +
       h[ma.floor(ma.random() * h.length)] +
       i[ma.floor(ma.random() * i.length)]);
+  // This will return a value of #(6 random charaters)
+
   // Color 2, for the 2nd element of the gradient
   let c_2 =
     "#" +
@@ -73,9 +76,9 @@ a.onclick = () => {
   b.value = c_1;
   c.value = c_2;
 
-  // Get a random rotation value ranging from 1 to 360, a minimum of 1 possible
+  // Get a random rotation value ranging from 1 to 360, a minimum of 1 degree possible
   r.value = Math.random() * (360 - 1) + 1;
 
-  // Log the current gradient and to see when reconsulting the document
+  // Log the current gradient to the console and to see when reconsulting the document
   console.log(`Random : ${c_1},${c_2} | rotation : ${r.value}°`);
 };
