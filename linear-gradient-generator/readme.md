@@ -5,6 +5,9 @@ random gradient to be generated and this will create two different hex values an
 Main.html <br>
 style.css <br>
 scriptmin.js <br>
-script.js
+script.js<br>
+stylemin.css<br>
 <br>
+## Folders 
+mobile <br>
 Preview (PC only) : https://codepen.io/lucaseeyou2/full/dyOzwrp; 
