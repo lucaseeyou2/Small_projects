@@ -3,7 +3,7 @@ Small projects that don't deserve their own repostory to be included in. These p
 Here are the current projects available for view, and also more may come in the future : 
 
 # Tables of content 
-* [Linear-Gradient Generator](#Linear)
+* [Linear-Gradient Generator](#linear-gradient-generator)
 
 ## Linear Gradient Generator
 This is a basic linear-gradient generator using two color inputs. This creates a gradient from the first color and the second. There is also a function for it to choose 
