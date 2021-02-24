@@ -10,4 +10,5 @@ stylemin.css<br>
 <br>
 ## Folders 
 mobile <br>
+* > Mobile.html
 Preview (PC only) : https://codepen.io/lucaseeyou2/full/dyOzwrp; 
