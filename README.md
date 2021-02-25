@@ -12,4 +12,4 @@ a completely random rotation and color to create a new gradient. Previously gene
 was built using HTML, CSS and vanilla JavaScript. It was fun and simple to build due to the simple JavaScript behind it.
 
 ## Universal Time clock
-This is an universal time clock. Bacicly, it gets the time and date from many different locations on this planet. The timezone offset will be calculated with UTC time. The clock makes usage of the Date(); Javascript object and its associated methods. Also, this is vanilla Javascript, no external libraries are required to run this page. CSS3 and HTML5 are also in this project.
+This is an universal time clock. Bacicly, it gets the time and date from many different locations on this planet. The timezone offset will be calculated with UTC time. The clock makes usage of the `Date();` Javascript object and its associated methods. Also, this is vanilla Javascript, no external libraries are required to run this page. CSS3 and HTML5 are also in this project.
