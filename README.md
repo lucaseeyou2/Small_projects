@@ -1,5 +1,5 @@
 # Small projects
-Small projects that do not deserve their own repository to be included in. Most of these do not require a library and are free to use accordingly to the *MIT license*. These projects will be included in their own personal folder for more reference. Here are the current projects available for view, and more may come: 
+Small projects that do not deserve their own repository to be included in. Most of these do not require a library and are free to use accordingly to the ***MIT license***. These projects will be included in their own personal folder for more reference. Here are the current projects available for view, and more may come: 
 
 # Tables of content 
 * 1 [Linear-Gradient Generator](#linear-gradient-generator)
