@@ -3,8 +3,8 @@ Small projects that do not deserve their own repository to be included in. Most 
 Here are the current projects available for view, and more may come: 
 
 # Tables of content 
-* [Linear-Gradient Generator](#linear-gradient-generator)
-* [Universal Time clock](#Universal-Time-clock)
+* 1 [Linear-Gradient Generator](#linear-gradient-generator)
+* 2 [Universal Time clock](#Universal-Time-clock)
 
 ## Linear Gradient Generator
 This is a basic linear-gradient generator using two color inputs. This creates a gradient from the first color and the second. There is also a function for it to choose 
