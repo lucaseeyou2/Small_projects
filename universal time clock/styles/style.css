@@ -1,0 +1,40 @@
+body{
+    background-color: #202020;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+body::-webkit-scrollbar{
+    background-color: #303030;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #404040;
+}
+header{
+    margin: 30px;
+    font-size: 32px;
+}
+#list{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+#c{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
+
+#city{
+    color: #40d0a0;
+    font-weight: 900;
+}
+
+a{
+    color: #40d040!important;
+    text-decoration: none;
+}
+
+article{
+    margin-bottom: 1000px;
+}
