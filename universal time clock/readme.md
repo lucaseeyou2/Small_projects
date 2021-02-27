@@ -4,7 +4,7 @@ The clock makes usage of the `Date();` Javascript object and its associated meth
 page. CSS3 and HTML5 are also in this project.
 
 ## Files 
-&#62;**scripts** <br>
+&#62;**script** <br>
 &#62;&#62; script.js <br>
 &#62;&#62; scriptmin.js <br>
 &#62;**src** <br>
