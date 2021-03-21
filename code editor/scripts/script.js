@@ -1,6 +1,9 @@
+"use strict";
+
 // Defining the two major elements used here
-let run = document.getElementById("run");
+let r = document.getElementById("run");
 let editor = document.getElementById("editor");
+let sideEditor = document.getElementById("side");
 
 // Default HTML to load in the textarea, 
 editor.innerHTML = `<!DOCTYPE html>
@@ -16,11 +19,10 @@ editor.innerHTML = `<!DOCTYPE html>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa atque voluptates vitae necessitatibus fugiat tempore asperiores
     tenetur nobis explicabo ea, corrupti expedita vel fuga quia? Id provident vel blanditiis expedita!</p>
 </body>
-</html>
-`;
+</html>`;
 
 // Onclick of the button, load a blank page, with an iframe containing the code in the editor. 
-run.onclick = () => {
+r.onclick = () => {
   var testwindow = window.open("", "_blank", `width = 10000, height = 10000`);
   var a = testwindow.document.createElement('iframe'); 
 
@@ -38,3 +40,13 @@ run.onclick = () => {
   // Add the tag to the opened window's body tag. 
   testwindow.document.body.appendChild(a);
 };
+
+// target the run button that runs the code inside the actual browser window
+let br = document.getElementById("brun"); 
+
+br.onclick = ()=>{
+  sideEditor.setAttribute("srcdoc", editor.value);
+}
+
+// on the first visit, append the template code to the viewer
+br.click();
