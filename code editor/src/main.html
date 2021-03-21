@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,18 +9,25 @@
     <link rel="stylesheet" href="../styles/style.css">
     <title>Code editor</title>
 </head>
+
 <body>
     <header>
-        <div id="title">Code editor</div>
+        <h1 id="title">Code editor</h1>
     </header>
     <article>
         <div id="mc">
-        <textarea id="editor">hello</textarea>
+            <main>
+                <textarea id="editor"></textarea>
+                <iframe id="side"></iframe>
+
+                <div id="controls">
+                    <button id="brun">run</button>
+                    <button id="run">run (full page)</button>
+                </div>
         </div>
-        <div id="controls">
-            <button id="run">run (html)</button>
-        </div>
+        </main>
     </article>
     <script src="../scripts/script.js"></script>
 </body>
+
 </html>
