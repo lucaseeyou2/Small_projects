@@ -1,41 +1,80 @@
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
-    font-weight:thin;
-    zoom: 0.9;
+*::selection{
+    color: white;
+    background-color: black;
 }
-article{
-    margin-top: 40px;
-    margin-bottom: 40px;
+
+body{
+    margin: 0px;
+    overflow: hidden;
+}
+
+header{
+    background-color: #202020;
+}
+
+#title{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    margin: 0px;
+    padding: 10px;
+    user-select: none;
+    font-size: 18px;
+    padding-bottom: 20px;
+    box-shadow: inset 0px -10px #252525;
+    height: 8vh;
 }
 
 #mc{
-    background-color: #202020;
-    width: 850px;
-    margin: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    background-color: #253535;
+    height: 92vh;
 }
+
 #editor{
-    padding-left: 15px;
-    padding-top: 20px;
+    width: 500px;
+    height: 500px;
+    outline: none;
+    padding: 10px;
+    color: white;
+    background-color: #202020;
+    line-height: 25px;
+    border:none;
     resize: none;
-    width: 800px;
-    height: 600px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 18px;
-    outline: none;
-    line-height: 24px;
+    border-radius: 10px;
 }
 
-#controls{
-    width: 800px;
+#editor::-webkit-scrollbar{
+    width: 10px;
+    background-color: #404040;
+}
+
+#editor::-webkit-scrollbar-thumb{
+    background-color: #606060;
+    cursor: pointer;
+}
+
+#side{
+    width: 500px;
+    height: 500px;
+    border: 10px 10px solid white;
+    background-color: white;
+    user-select: none;
+    resize: both;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+main{
+    width: 1100px;
     margin: auto;
-    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #252525;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 80vh;
 }
 
-button{
-    outline: none;
+iframe, ::after, ::before {
+    box-sizing: unset;
 }
