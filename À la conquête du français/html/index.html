@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Un jeu de société ayant le but de vous faire apprendre le fraçais tout en vous amusant">
+    <meta name="description" content="Un jeu de société ayant le but de vous faire apprendre le fraçais tout en vous amusant">
     <meta name="theme-color" content="#202020" />
     <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <link rel="manifest" href="../manifest.webmanifest">
@@ -14,7 +12,6 @@
     <link rel="apple-touch-icon" href="../img/logo.png">
     <title>À la conquête du français</title>
 </head>
-
 <body>
     <main>
         <div id="prelude">
@@ -38,64 +35,14 @@
             </header>
             <section class="ol">
                 <div id="map">
-                    <ul id="map_content">
-                        <li><img src="../img/n_0.png" alt="image_0" class="rg" id="image_0"></li>
-                        <li><img src="../img/n_1.png" alt="image_1" class="rg" id="image_1"></li>
-                        <li><img src="../img/n_2.png" alt="image_2" class="rg" id="image_2"></li>
-                        <li><img src="../img/n_3.png" alt="image_3" class="rg" id="image_3"></li>
-                        <li><img src="../img/n_4.png" alt="image_4" class="rg" id="image_4"></li>
-                        <li><img src="../img/n_5.png" alt="image_5" class="rg" id="image_5"></li>
-                        <li><img src="../img/n_6.png" alt="image_6" class="rg" id="image_6"></li>
-                        <li><img src="../img/n_7.png" alt="image_7" class="rg" id="image_7"></li>
-                        <li><img src="../img/n_8.png" alt="image_8" class="rg" id="image_8"></li>
-                        <li><img src="../img/n_9.png" alt="image_9" class="rg" id="image_9"></li>
-                        <li><img src="../img/n_10.png" alt="image_10" class="rg" id="image_10"></li>
-                        <li><img src="../img/n_11.png" alt="image_11" class="rg" id="image_11"></li>
-                        <li><img src="../img/n_12.png" alt="image_12" class="rg" id="image_12"></li>
-                        <li><img src="../img/n_13.png" alt="image_13" class="rg" id="image_13"></li>
-                        <li><img src="../img/n_14.png" alt="image_14" class="rg" id="image_14"></li>
-                        <li><img src="../img/n_15.png" alt="image_15" class="rg" id="image_15"></li>
-                        <li><img src="../img/n_16.png" alt="image_16" class="rg" id="image_16"></li>
-                        <li><img src="../img/n_17.png" alt="image_17" class="rg" id="image_17"></li>
-                        <li><img src="../img/n_18.png" alt="image_18" class="rg" id="image_18"></li>
-                        <li><img src="../img/n_19.png" alt="image_19" class="rg" id="image_19"></li>
-                        <li><img src="../img/n_20.png" alt="image_20" class="rg" id="image_20"></li>
-                        <li><img src="../img/n_21.png" alt="image_21" class="rg" id="image_21"></li>
-                    </ul>
+                    <ul id="map_content"></ul>
                     <ul id="provincelist">
-                        <li class="pr" id='n_1'>Bretagne</li>
-                        <li class="pr" id='n_2'>Basse- Normandie</li>
-                        <li class="pr" id='n_3'>Haute-Normandie</li>
-                        <li class="pr" id='n_4'>Nord Pas de Calais</li>
-                        <li class="pr" id='n_5'>Picardie</li>
-                        <li class="pr" id='n_6'>Îles de france</li>
-                        <li class="pr" id='n_7'>Pays de la loire</li>
-                        <li class="pr" id='n_8'>Centre</li>
-                        <li class="pr" id='n_9'>Champagne-ardenne</li>
-                        <li class="pr" id='n_10'>Lorraine</li>
-                        <li class="pr" id='n_11'>Alsace</li>
-                        <li class="pr" id='n_12'>Bourgogne</li>
-                        <li class="pr" id='n_13'>Franche-Compte</li>
-                        <li class="pr" id='n_14'>Pointou-charentes</li>
-                        <li class="pr" id='n_15'>Limousin</li>
-                        <li class="pr" id='n_16'>Alivergne</li>
-                        <li class="pr" id='n_17'>Rhône Alpes</li>
-                        <li class="pr" id='n_18'>Aquitaine</li>
-                        <li class="pr" id='n_19'>Midi-Pyrénées</li>
-                        <li class="pr" id='n_20'>Languedoc- roussillon</li>
-                        <li class="pr" id='n_21'>Provence-alpes cote d'azur</li>
-                        <li class="pr" id='n_22'>Corse </li>
                     </ul>
                 </div>
             </section>
             <div id="prompt" class="qst" style="display: none;">
                 <h2 id="brst">Qui a mangé le plus de pain dans les 24 dernières heures ? (Soyez honnêtes)</h2>
-                <div id="bcpl">
-                    <button class="lbe">Joueur 1</button>
-                    <button class="lbe">Joueur 2</button>
-                    <button class="lbe">Joueur 3</button>
-                    <button class="lbe">Joueur 4</button>
-                </div>
+                <div id="bcpl"></div>
                 <div id="csection">
                     <h2>Couleurs</h2>
                     <div id="sub">
@@ -109,112 +56,12 @@
             <div id="regionchoice" class="qst">
                 <h2 id="plchh">Veuillez choisir une province de départ</h2>
                 <div class="plrch">
-                    <div>Joueur 1</div>
-                    <select name="" id="player_1_in">
-                       <option> Bretagne</option>
-                       <option> Basse- Normandie</option>
-                       <option> Haute-Normandie</option>
-                       <option> Picardie</option>
-                       <option> Nord Pas de Calais</option>
-                       <option> Champagne-ardenne</option>
-                       <option> Lorraine</option>
-                       <option> Alsace</option>
-                       <option> Franche-Compte</option>
-                       <option> Pays de la loire</option>
-                       <option> Aquitaine</option>
-                       <option> Midi-Pyrénées</option>
-                       <option> Languedoc- roussillon</option>
-                       <option> Provence-alpes cote d'azur</option>
-                       <option> Corse</option>
-                       <option> Rhône Alpes</option>
-                       <option> Iles de france</option>
-                       <option> Centre</option>
-                       <option> Limousin</option>
-                       <option> Alivergne</option>
-                       <option> Bourgogne</option>
-                       <option> Pointou-charentes</option>
-                    </select>
                 </div>
                 <div class="plrch">
-                    <div>Joueur 2</div>
-                    <select name="" id="player_2_in">
-                        <option> Bretagne</option>
-                        <option> Basse- Normandie</option>
-                        <option> Haute-Normandie</option>
-                        <option> Picardie</option>
-                        <option> Nord Pas de Calais</option>
-                        <option> Champagne-ardenne</option>
-                        <option> Lorraine</option>
-                        <option> Alsace</option>
-                        <option> Franche-Compte</option>
-                        <option> Pays de la loire</option>
-                        <option> Aquitaine</option>
-                        <option> Midi-Pyrénées</option>
-                        <option> Languedoc- roussillon</option>
-                        <option> Provence-alpes cote d'azur</option>
-                        <option> Corse</option>
-                        <option> Rhône Alpes</option>
-                        <option> Iles de france</option>
-                        <option> Centre</option>
-                        <option> Limousin</option>
-                        <option> Alivergne</option>
-                        <option> Bourgogne</option>
-                        <option> Pointou-charentes</option>
-                    </select>
                 </div>
                 <div class="plrch">
-                    <div>Joueur 3</div>
-                    <select name="" id="player_3_in">
-                        <option> Bretagne</option>
-                        <option> Basse- Normandie</option>
-                        <option> Haute-Normandie</option>
-                        <option> Picardie</option>
-                        <option> Nord Pas de Calais</option>
-                        <option> Champagne-ardenne</option>
-                        <option> Lorraine</option>
-                        <option> Alsace</option>
-                        <option> Franche-Compte</option>
-                        <option> Pays de la loire</option>
-                        <option> Aquitaine</option>
-                        <option> Midi-Pyrénées</option>
-                        <option> Languedoc- roussillon</option>
-                        <option> Provence-alpes cote d'azur</option>
-                        <option> Corse</option>
-                        <option> Rhône Alpes</option>
-                        <option> Iles de france</option>
-                        <option> Centre</option>
-                        <option> Limousin</option>
-                        <option> Alivergne</option>
-                        <option> Bourgogne</option>
-                        <option> Pointou-charentes</option>
-                    </select>
                 </div>
                 <div class="plrch">
-                    <div>Joueur 4</div>
-                    <select name="" id="player_4_in">
-                        <option> Bretagne</option>
-                        <option> Basse- Normandie</option>
-                        <option> Haute-Normandie</option>
-                        <option> Picardie</option>
-                        <option> Nord Pas de Calais</option>
-                        <option> Champagne-ardenne</option>
-                        <option> Lorraine</option>
-                        <option> Alsace</option>
-                        <option> Franche-Compte</option>
-                        <option> Pays de la loire</option>
-                        <option> Aquitaine</option>
-                        <option> Midi-Pyrénées</option>
-                        <option> Languedoc- roussillon</option>
-                        <option> Provence-alpes cote d'azur</option>
-                        <option> Corse</option>
-                        <option> Rhône Alpes</option>
-                        <option> Iles de france</option>
-                        <option> Centre</option>
-                        <option> Limousin</option>
-                        <option> Alivergne</option>
-                        <option> Bourgogne</option>
-                        <option> Pointou-charentes</option>
-                    </select>
                 </div>
                 <button id="stgb">Commencer</button>
             </div>
@@ -225,9 +72,6 @@
             <div id="question" class="qst" style="display: none;">
                 <h2 id="qh"></h2>
                 <ul id="ql">
-                    <li class="qi"><button></button></li>
-                    <li class="qi"><button></button></li>
-                    <li class="qi"><button></button></li>
                 </ul>
             </div>
             <div id="qblitz" class="qst" style="display: none;">
@@ -238,12 +82,10 @@
                     <li class="qi"><button></button></li>
                 </ul>
             </div>
-
             <div id="event" class="qst" style="display: none;">
                 <h2 id="eh"></h2>
             </div>
         </div>
-
         <div id="gew" style="display: none;">
             <h1>Temps écoulé</h1>
             <div id="winnerdisplay"><span id="winning_player"></span> à gagné(e) la partie</div>
@@ -252,55 +94,24 @@
                 <button id="btm" class="rs">Retour à l'accueil</button>
             </div>
         </div>
-
         <div id="intructions" style="display: none;">
             <h2 id="ht">Comment jouer ?</h2>
             <h2 id="ht">Introduction</h2>
-            <p id="ht">Bienvenue dans notre jeu. Que vous soyez jeune, moins jeune et peu importe votre maîtrise du
-                français, ce jeu vous amusera tout en augmentant drastiquement votre maîtrise de la langue de Molière.
-                Vous n'avez pas besoin de matériel additionel tel qu'une feuille de papier et d'un crayon pour jouer à
-                ce jeu et pas besoin d'être une foule pour y jouer : le nombre de participants minimum est de 2.</p>
+            <p id="ht">Bienvenue dans notre jeu. Que vous soyez jeune, moins jeune et peu importe votre maîtrise du français, ce jeu vous amusera tout en augmentant drastiquement votre maîtrise de la langue de Molière. Vous n'avez pas besoin de matériel additionel tel qu'une feuille de papier et d'un crayon pour jouer à ce jeu et pas besoin d'être une foule pour y jouer : le nombre de participants minimum est de 2.</p>
             <h2 id="ht">Déroulement</h2>
-            <p id="ht">Au début du jeu, chaque joueur met un jeton "Capitale" sur une province de leur choix. Cependant,
-                un joueur ne peut pas avoir une frontière commune avec un autre joueur. C'est le joueur ayant mangé le
-                plus de pain dans les dernières 24h qui commence. Afin de jouer au jeu, chacun prends son tour afin de
-                conquérir une région de la France. Afin de prendre une région, il fait répondre à une question dans les
-                catégories suivantes :</p>
+            <p id="ht">Au début du jeu, chaque joueur met un jeton "Capitale" sur une province de leur choix. Cependant,un joueur ne peut pas avoir une frontière commune avec un autre joueur. C'est le joueur ayant mangé leplus de pain dans les dernières 24h qui commence. Afin de jouer au jeu, chacun prends son tour afin deconquérir une région de la France. Afin de prendre une région, il fait répondre à une question dans lescatégories suivantes :</p>
             <h2 id="ht">Questions et catégories (cartes)</h2>
-            <p id="ht">Les questions qui seront présentes dans notre jeu de français seront Scrabble,
-                Orthographe,Décomposition de phrase, Évènement, Verbes, synonymes et antonymes, questions générales. Le
-                Scrabble consiste à formerun mot avec des lettres dispersées. L'orthographe consiste à épeller
-                correctement un mot français ou àrépondre à des questions liées à la structure de celui-ci. Un évènement
-                est une carte inspirée deMonopoly consistant d'un événement hasardeux sur la propriété des personnes.
-                Par example si Éloi tireune carte pour conquérir, il peut alors prendre n'importe quelle région dans la
-                partie, que ce soit à unjoueur ou pas, sans à avoir de passer une question. Les verbes sont relatif à la
-                conjugaison d'un verbespécifié à un temps spécifié. Les synonymes et antonymes opèrent de la même façon.
-                Les questionsgénérales sont les questions sur les connaissances générales des livres que nous avons lus,
-                chansons etc.</p>
+            <p id="ht">Les questions qui seront présentes dans notre jeu de français seront Scrabble, Orthographe, Décomposition de phrase, Évènement, Verbes, synonymes et antonymes, questions générales. Le Scrabble consiste à formerun mot avec des lettres dispersées. L'orthographe consiste à épeller correctement un mot français ou àrépondre à des questions liées à la structure de celui-ci. Un évènement est une carte inspirée deMonopoly consistant d'un événement hasardeux sur la propriété des personnes. Par example si Éloi tireune carte pour conquérir, il peut alors prendre n'importe quelle région dans la partie, que ce soit à unjoueur ou pas, sans à avoir de passer une question. Les verbes sont relatif à la conjugaison d'un verbespécifié à un temps spécifié. Les synonymes et antonymes opèrent de la même façon. Les questionsgénérales sont les questions sur les connaissances générales des livres que nous avons lus, chansons etc.</p>
             <h2 id="ht">Duels</h2>
-            <p id="ht">Dans première phase du duel, les deux joueurs prendront une carte. Si une personne a une bonne
-                réponse, celle-ci prend possession du territoire. Si les deux opposants ont les mêmes bonnes réponses,
-                on recommence le processus jusqu'à la troisième répétition. Si on manque la réponse l'autre personne
-                prends ce territoire. Une carte blitz est une carte présentant un duel dont la première personne qui
-                réponds faux, perd la région qu'elle essaye de conquérir.</p>
+            <p id="ht">Dans première phase du duel, les deux joueurs prendront une carte. Si une personne a une bonne réponse, celle-ci prend possession du territoire. Si les deux opposants ont les mêmes bonnes réponses, on recommence le processus jusqu'à la troisième répétition. Si on manque la réponse l'autre personne prends ce territoire. Une carte blitz est une carte présentant un duel dont la première personne qui réponds faux, perd la région qu'elle essaye de conquérir.</p>
             <h2 id="ht">Attaque d'une capitale</h2>
-            <p id="ht">Prendre une carte siège pour capturer cette capitale qui sera une décomposition de phrase, en une
-                minute. Si on perd la capitale, le jeu est fini et ainsi les territoires conquéries deviennent neutres.
-                Pour conquérir une de ces régions, il faut que on prenne une carte afin de la capturer cette région.</p>
+            <p id="ht">Prendre une carte siège pour capturer cette capitale qui sera une décomposition de phrase, en une minute. Si on perd la capitale, le jeu est fini et ainsi les territoires conquéries deviennent neutres. Pour conquérir une de ces régions, il faut que on prenne une carte afin de la capturer cette région.</p>
             <h2 id="ht">Matériel</h2>
-            <ul id="ht">
-                <li>Planche de jeu</li>
-                <li>22 jetons pour chaque personne (afin de représenter les 22 régions)</li>
-                <li>5 jetons capitaux un pour chaque joueur</li>
-                <li>13 cartes sièges</li>
-                <li>45 cartes blitz</li>
-                <li>100 cartes normales</li>
-            </ul>
+            <ul id="ht"><li>Planche de jeu</li><li>22 jetons pour chaque personne (afin de représenter les 22 régions)</li><li>5 jetons capitaux un pour chaque joueur</li><li>13 cartes sièges</li><li>45 cartes blitz</li><li>100 cartes normales</li></ul>
             <div id="ht" class="start">Jouer !</div>
         </div>
     </main>
-    <!-- <script src="../js/data.json"></script> -->
+    <script src="../js/test.json"></script>
     <script src="../js/script.js"></script>
 </body>
-
 </html>
