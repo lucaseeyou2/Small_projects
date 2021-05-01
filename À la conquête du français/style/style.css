@@ -509,3 +509,6 @@ select{
     background-color: #ff00ff;
 }
 
+.qi>button{
+    cursor: pointer;
+}
