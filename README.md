@@ -5,6 +5,7 @@ Small projects that do not deserve their own repository to be included in. Most 
 * 1 [Linear-Gradient Generator](#linear-gradient-generator)
 * 2 [Universal Time clock](#Universal-Time-clock)
 * 3 [Code editor](#Code-editor)
+* 4 [À la conquête du français](#À-la-conquête-du-français)
 
 ## Linear Gradient Generator
 This is a basic linear-gradient generator using two color inputs. This creates a gradient from the first color and the second. There is also a function for it to choose a completely random rotation and color to create a new gradient. Previously generated gradients are in the console with both HEX codes and rotation degree. This project was built using HTML, CSS and vanilla JavaScript. It was fun and simple to build due to the simple JavaScript behind it.
@@ -14,3 +15,6 @@ This is a universal time clock. Basically, it gets the time and date from many d
 
 ## Code editor
 This was something I wanted to make for a long time. This is a code editor that can run HTML CSS and JavaScript. To explain this, the editor is like any code editor, but its basic with only one feature: to write code. To use this, write your HTML code inside this editor. Once this done, click the run button below, it will open an external window that contains your writings inside it. Currently, it is usable, but more features may come soon. 
+
+## À la conquête du français
+This is a multiplayer game that doesn't quite work. I'll try my best to fix the content of this game, because I had no time at all to finish that game, due to the many errors present in the game's script, and also because of a time pressure that I had to complete it. The game's goal is to conquer all the teritory of France, by answering french related questions. Thus by answering correctly, you can conquer that specified region. So this happens until no one is alive. This was meant to be a digital version of a board game. **Still in reconstruction**.
